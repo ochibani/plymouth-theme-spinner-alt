@@ -1,0 +1,15 @@
+Source: plymouth-theme-spinner-alt
+Section: x11
+Priority: optional
+Maintainer: Chibani <11yzyv86j@relay.firefox.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: https://github.com/adi1090x/plymouth-themes
+
+Package: plymouth-theme-spinner-alt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, plymouth (>=0.9.5-3),
+Provides:
+ plymouth-theme,
+Description: Spinner-alt Plymouth Theme
+ https://github.com/adi1090x/plymouth-themes/tree/master/pack_4/spinner_alt
